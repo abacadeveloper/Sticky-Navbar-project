@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+    transition: background-color 0.4s;
+}
+
+.logo{
+    width: 170px;
+    height: 54px;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+}
+
+.navbar ul li a:hover{
+    color: red;
+}
+
+.navbar.active{
+    background-color: #000;
+    color: #fff;
+}
+
+
+.top-container{
+    background-image: url(../images/pexels-dan-grab-775687.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-container h1{
+    color: #fff;
+    font-size: 2.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.text{
+    margin: 50px 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
